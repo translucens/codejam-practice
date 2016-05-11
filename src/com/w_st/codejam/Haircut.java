@@ -22,7 +22,7 @@ public class Haircut {
         }
         System.out.print("Case #" + i + ": ");
         if (barbers.length <= 5) {
-          System.out.println(solveByLcm(barbers, place));
+          System.out.println(solveByBinary(barbers, place));
         } else {
           System.out.println(solveByBinary(barbers, place));
         }
@@ -75,6 +75,47 @@ public class Haircut {
   }
 
   private static int solveByBinary(int[] barbers, int place) {
-    throw new RuntimeException("Need implementation!");
+    if (place <= barbers.length) {
+      return place;
+    }
+
+    int longest = Arrays.stream(barbers).max().getAsInt();
+
+    long beginCutTime = findCutTime(barbers, place, (long) longest * place);
+    long beforeCutCustomer = cutCustomerCount(barbers, beginCutTime - 1);
+
+    long waitOrder = place - beforeCutCustomer;
+
+    for (int i = 0; i < barbers.length; i++) {
+      if (beginCutTime % barbers[i] == 0) {
+        --waitOrder;
+      }
+      if (waitOrder == 0) {
+        return i + 1;
+      }
+    }
+    throw new RuntimeException();
+  }
+
+  private static long findCutTime(int[] barbers, int place, long end) {
+
+    long begin = 0;
+    long middleCount = 0;
+    while (end - begin > 1) {
+      long middle = (begin + end) / 2;
+      middleCount = cutCustomerCount(barbers, middle);
+
+      if (place <= middleCount) {
+        end = middle;
+        continue;
+      }
+      begin = middle;
+    }
+
+    return end;
+  }
+
+  private static long cutCustomerCount(int[] barbers, long t) {
+    return Arrays.stream(barbers).mapToLong(b -> t / b + 1).sum();
   }
 }
