@@ -38,18 +38,16 @@ public class SenateEvacuation {
     }
 
     StringBuilder sb = new StringBuilder(plan.size() + plan.size() / 2);
+    int loopIndex;
     if (plan.size() % 2 == 1) {
-      for (int i = 0; i < plan.size() - 4; i += 2) {
-        sb.append(plan.get(i)).append(plan.get(i + 1)).append(' ');
-      }
-
-      sb.append(plan.get(plan.size() - 3)).append(' ').append(plan.get(plan.size() - 2))
-          .append(plan.get(plan.size() - 1));
-      return sb.toString();
+      sb.append(plan.get(0));
+      loopIndex = 1;
+    } else {
+      sb.append(plan.get(0)).append(plan.get(1));
+      loopIndex = 2;
     }
 
-    sb.append(plan.get(0)).append(plan.get(1));
-    for (int i = 2; i < plan.size() - 1; i += 2) {
+    for (int i = loopIndex; i < plan.size() - 1; i += 2) {
       sb.append(' ').append(plan.get(i)).append(plan.get(i + 1));
     }
     return sb.toString();
