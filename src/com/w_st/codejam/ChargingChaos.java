@@ -34,21 +34,13 @@ public class ChargingChaos {
   }
 
   private static String solve(long[] devices, long[] outlets) {
-    long[] flipPattern = new long[outlets.length];
-    for (int i = 0; i < outlets.length; i++) {
-      flipPattern[i] = devices[0] ^ outlets[i];
-    }
 
-    List<Long> candidate = new ArrayList<>();
-    for (long pattern : flipPattern) {
-      if (matchFlipPattern(pattern, devices, outlets)) {
-        candidate.add(pattern);
-      }
-    }
-    if (candidate.isEmpty()) {
+    OptionalInt flipCount = Arrays.stream(outlets).map(o -> devices[0] ^ o)
+        .filter(p -> matchFlipPattern(p, devices, outlets)).mapToInt(Long::bitCount).min();
+    if (!flipCount.isPresent()) {
       return "NOT POSSIBLE";
     }
-    return Integer.toString(candidate.stream().mapToInt(Long::bitCount).min().getAsInt());
+    return Integer.toString(flipCount.getAsInt());
   }
 
   private static boolean matchFlipPattern(long pattern, long[] devices, long[] outlets) {
@@ -57,11 +49,6 @@ public class ChargingChaos {
       flipped.add(outlet ^ pattern);
     }
 
-    for (long device : devices) {
-      if (!flipped.contains(device)) {
-        return false;
-      }
-    }
-    return true;
+    return Arrays.stream(devices).allMatch(flipped::contains);
   }
 }
