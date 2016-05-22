@@ -1,7 +1,7 @@
 # codejam-practice
 
 Year | Title | A. | B. | C. | D.
-- | - | - | - | - | -
+--- | --- | --- | --- | --- | ---
 2016 | Round 1C | Senate Evacuation 42ca3800e5e1706130c034a991fddc56400eef33 |  |  |
 2016 | Round 1B | Getting the Digits 820d51a8dacfce9658c4330c718abaf81e795b05 |  |  |
 2016 | Round 1A | The Last Word b74d97ee508dc4513f64f50f106f8cb4aa6d1465 |  |  |
@@ -19,5 +19,5 @@ Year | Title | A. | B. | C. | D.
 2010 | Round 1A | Rotate 6cc7659c7329c5b377b23fde4d966b1f54fc3f77 |  |  |
 2010 | Qualification Round Africa  | Store Credit 99fdaa83b26c6b88509bb671d57747656a96816b | Reverse Words 65d61146e57201a248aebbd2961d01c50ad4f6a2 |  |
 2009 | Round 1C | All Your Base 28eef2ba87ac5a12d20e8a37c0a0badc51c2bdae |  |  |
-2009 | Qualification Round  | Alien Language ea18a32023ea15ad468962f8b0e596acbe023ceb |  |  | 
+2009 | Qualification Round | Alien Language ea18a32023ea15ad468962f8b0e596acbe023ceb |  |  |
 2008 | Round 1A | Minimum Scalar Product bf976fd151d8c82451293df9e8b7e3dd25834ef6 |  |  |
