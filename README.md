@@ -1,7 +1,7 @@
 # codejam-practice
 
 Year|Title|A.|B.|C.|D.
--|-|-|-
+-|-|-|-|-|-
 2016|Round 1C|Senate Evacuation 42ca3800e5e1706130c034a991fddc56400eef33|||
 2016|Round 1B|Getting the Digits 820d51a8dacfce9658c4330c718abaf81e795b05|||
 2016|Round 1A|The Last Word b74d97ee508dc4513f64f50f106f8cb4aa6d1465|||
