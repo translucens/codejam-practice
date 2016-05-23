@@ -17,6 +17,7 @@ Year | Title | A. | B. | C. | D.
 2010 | Round 1C | Rope Intranet 92362993da5d2dd332a7302757339bd7fcdbfb41 |  |  |
 2010 | Round 1B | File Fix-it 71eaeb0c2c9db1ab5a8ed9525948f9e0af6049e1 |  |  |
 2010 | Round 1A | Rotate 6cc7659c7329c5b377b23fde4d966b1f54fc3f77 |  |  |
+2010 | Qualification Round | Snapper Chain |  |  |
 2010 | Qualification Round Africa  | Store Credit 99fdaa83b26c6b88509bb671d57747656a96816b | Reverse Words 65d61146e57201a248aebbd2961d01c50ad4f6a2 |  |
 2009 | Round 1C | All Your Base 28eef2ba87ac5a12d20e8a37c0a0badc51c2bdae |  |  |
 2009 | Qualification Round | Alien Language ea18a32023ea15ad468962f8b0e596acbe023ceb |  |  |
