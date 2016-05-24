@@ -6,7 +6,6 @@ import org.apache.commons.lang3.StringUtils;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.BitSet;
 import java.util.Scanner;
 
 /**
@@ -33,7 +32,7 @@ public class Slides {
   }
 
   private static String[] solve(int b, long m) {
-    if ((1 << (b - 2)) < m) {
+    if ((1L << (b - 2)) < m) {
       return ArrayUtils.EMPTY_STRING_ARRAY;
     }
 
@@ -47,7 +46,7 @@ public class Slides {
       }
       return answer;
     }
-    boolean pow2 = m == (1 << (b - 2));
+    boolean pow2 = m == (1L << (b - 2));
 
     StringBuilder sb = new StringBuilder(b);
     answer[0] = "0" + StringUtils.repeat('1', bit) + StringUtils.repeat('0', b - bit - 1);
@@ -60,8 +59,8 @@ public class Slides {
       if (b - bit > 2) {
         sb.append(StringUtils.repeat('0', b - bit - 2));
       }
-      if (!pow2){
-        sb.append(BitSet.valueOf(new long[] {m}).get(i - 1) ? '1' : '0');
+      if (!pow2) {
+        sb.append((m & (1L << i - 1)) > 0 ? '1' : '0');
       }
       answer[i] = sb.toString();
     }
@@ -71,5 +70,4 @@ public class Slides {
     }
     return answer;
   }
-
 }
