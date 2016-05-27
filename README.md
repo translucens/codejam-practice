@@ -22,3 +22,4 @@ Year | Round | A. | B. | C. | D.
 2009 | 1C | All Your Base 28eef2ba87ac5a12d20e8a37c0a0badc51c2bdae |  |  |
  | Qualification | Alien Language ea18a32023ea15ad468962f8b0e596acbe023ceb |  |  |
 2008 | 1A | Minimum Scalar Product bf976fd151d8c82451293df9e8b7e3dd25834ef6 |  |  |
+2008 | Qualification | Saving the Universe bf976fd151d8c82451293df9e8b7e3dd25834ef6 |  |  |
