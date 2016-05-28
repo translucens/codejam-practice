@@ -8,7 +8,8 @@ Year | Round | A. | B. | C. | D.
  | Qualification | Counting Sheep 894387c7fa1f58555db01cf6d4bd56220bf1cee0 | Revenge of the Pancakes a7a7a5c3b12b25da639bc0c9e87cbfdfcbb3f7f0 |  |
 2015 | 1A | Mushroom Monster c61bccfeebfe934f973ed64c5e8950c7f8ec28c4 | Haircut 4f83c467e894638f3ddd5d65d355406ef5dd8920 |  |
  | Qualification | Standing Ovation 22fd23a42bdf8edc241371aeb9dfa29ba5563de7 | Infinite House of Pancakes 3bf232596bf12f746841f767eb8e1ef19ba37537 | Dijkstra d7f5097ebbda4445e3de8ba5a36f13e2bf678a56 |
-2014 | 1C | Part Elf ead58d465f7b00dd87dcd4d8e81e5447e534d582 |  |  |
+2014 | 2 | Data Packing |  |  |
+ | 1C | Part Elf ead58d465f7b00dd87dcd4d8e81e5447e534d582 |  |  |
  | 1B | The Repeater 11e7c5709ff901853e94a32d0a39e47a0b3fc6ce |  |  |
  | 1A | Charging Chaos 1f8debed55ac1022c5a0db3b6086809a1063b45f |  |  |
  | Qualification | Magic Trick b8294b6724267927d0100265e039be717eae2d06 | Cookie Clicker Alpha f972c732dc37bb5086e85d61d8b6c5dfeeabffb8 |  |
@@ -22,4 +23,4 @@ Year | Round | A. | B. | C. | D.
 2009 | 1C | All Your Base 28eef2ba87ac5a12d20e8a37c0a0badc51c2bdae |  |  |
  | Qualification | Alien Language ea18a32023ea15ad468962f8b0e596acbe023ceb |  |  |
 2008 | 1A | Minimum Scalar Product bf976fd151d8c82451293df9e8b7e3dd25834ef6 |  |  |
-2008 | Qualification | Saving the Universe bf976fd151d8c82451293df9e8b7e3dd25834ef6 |  |  |
+ | Qualification | Saving the Universe 9a20f9d2d5ef7313b17bfb73908b5698af65efd8 |  |  |
