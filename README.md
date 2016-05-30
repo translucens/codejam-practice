@@ -13,7 +13,8 @@ Year | Round | A. | B. | C. | D.
  | 1B | The Repeater 11e7c5709ff901853e94a32d0a39e47a0b3fc6ce |  |  |
  | 1A | Charging Chaos 1f8debed55ac1022c5a0db3b6086809a1063b45f |  |  |
  | Qualification | Magic Trick b8294b6724267927d0100265e039be717eae2d06 | Cookie Clicker Alpha f972c732dc37bb5086e85d61d8b6c5dfeeabffb8 |  |
-2013 | 1B | Osmos |  |  |
+2013 | 1B | Osmos 88a2e0f92bbf3cb4ee4ce6bf1a5e45999cc55275 |  |  |
+ | Qualification |  | Lawnmower |  |
 2012 | Qualification | Speaking in Tongues 939675450eca81c49c40b7e36ebec3669cab32f8 | Dancing With the Googlers bbb6452faa9891eaceccd74a34cee66be5212132 |  |
 2011 | Qualification | Bot Trust 6cd71d722268192723f4ce236641add38997b0fe |  |  |
 2010 | 1C | Rope Intranet 92362993da5d2dd332a7302757339bd7fcdbfb41 |  |  |
